@@ -17,8 +17,8 @@ import (
 
 func game() {
 	var (
-		acceptedGuesses string[] = getAcceptedGuesses()
-		possibleSolutions string[] = getPossibleSolutions()
+		acceptedGuesses []string = getAcceptedGuesses()
+		possibleSolutions []string = getPossibleSolutions()
 		secret string = getWord()
 		count  int    = 1
 		end    bool   = true
