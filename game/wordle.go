@@ -40,11 +40,11 @@ func game() {
 }
 
 func getAcceptedGuesses() {
-	return readFileToStringList('game/acceptedGuesses.txt"')
+	return readFileToStringList("game/acceptedGuesses.txt")
 }
 
 func getPossibleSolutions() {
-	return readFileToStringList('game/possibleSolutions.txt"')
+	return readFileToStringList("game/possibleSolutions.txt")
 }
 
 func readFileToStringList(filename string) {
